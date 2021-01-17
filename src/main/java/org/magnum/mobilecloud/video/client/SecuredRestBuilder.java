@@ -6,31 +6,21 @@
  */
 package org.magnum.mobilecloud.video.client;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.Executor;
-
-import org.apache.commons.io.IOUtils;
-
-import retrofit.Endpoint;
-import retrofit.ErrorHandler;
-import retrofit.Profiler;
-import retrofit.RequestInterceptor;
-import retrofit.RestAdapter;
-import retrofit.RestAdapter.Log;
-import retrofit.RestAdapter.LogLevel;
-import retrofit.client.Client;
-import retrofit.client.Client.Provider;
-import retrofit.client.Header;
-import retrofit.client.OkClient;
-import retrofit.client.Request;
-import retrofit.client.Response;
-import retrofit.converter.Converter;
-import retrofit.mime.FormUrlEncodedTypedOutput;
-
 import com.google.common.io.BaseEncoding;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import org.apache.commons.io.IOUtils;
+import retrofit.*;
+import retrofit.RestAdapter.Log;
+import retrofit.RestAdapter.LogLevel;
+import retrofit.client.*;
+import retrofit.client.Client.Provider;
+import retrofit.converter.Converter;
+import retrofit.mime.FormUrlEncodedTypedOutput;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Executor;
 
 /**
  * A Builder class for a Retrofit REST Adapter. Extends the default implementation by providing logic to

@@ -3,7 +3,7 @@ buildscript {
 		springBootVersion = '2.1.0.RELEASE'
 	}
     repositories {
-        maven { url "https://repo.spring.io/libs-snapshot" }
+        jcenter()
         mavenLocal()
     }
     dependencies {
@@ -68,4 +68,4 @@ dependencies {
     testCompile("junit:junit:4.13")
 }
 
-mainClassName = 'org.magnum.dataup.model.Application'
+mainClassName = 'org.magnum.mobilecloud.video.Application'

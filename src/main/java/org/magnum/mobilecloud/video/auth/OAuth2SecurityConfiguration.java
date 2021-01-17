@@ -1,7 +1,5 @@
 package org.magnum.mobilecloud.video.auth;
 
-import java.util.Arrays;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,6 +22,8 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+
+import java.util.Arrays;
 
 /**
  *	Configure this web application to use OAuth 2.0.

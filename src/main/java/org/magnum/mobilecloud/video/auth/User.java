@@ -6,12 +6,12 @@
  */
 package org.magnum.mobilecloud.video.auth;
 
-import java.util.Collection;
-import java.util.Collections;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import java.util.Collection;
+import java.util.Collections;
 
 public class User implements UserDetails {
 
